@@ -1,0 +1,24 @@
+ul {
+    margin-top: 10px;
+}
+
+span {
+    padding: 5px;
+}
+
+li > button {
+    float: right;
+}
+
+form {
+    margin-top: 10px;
+}
+
+.panel{
+    margin-top: 5px;
+    min-height: 400px;
+}
+
+button {
+    margin-top: -7px;
+}
