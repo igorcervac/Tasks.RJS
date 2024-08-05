@@ -7,16 +7,16 @@ export const Tasks = () => {
 
     const removeTask = (task) => {
         setTasks(tasks.filter(x => x.id !== task.id));
-    }
+    };
 
     const toggleTask = (task) => {
-        setTasks(tasks.map(x=> {
+        setTasks(tasks.map(x => {
             if (x.id === task.id){
-                x.done = !x.done;
+                return {...task, done: !x.done};
             }
             return x;
         }))
-    }
+    };
 
     return (
         <div className="container">
